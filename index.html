@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Free Code Camp Survey Form
+  </title>
+</head>
+<div id="background">
+  <form id="survey-form">
+    <h2 id="title">COVID-19 Medical Questionnaire</h2>
+    <p id="description">Complete this form to report your coronavirus symptoms and status. This form will help us best attend to you, and manage the potential spread of the virus.</p>
+    <fieldset>
+      <legend>Personal details</legend>
+      <div>
+        <label id="name-label" for="name"><br>Name</br></label>
+        <input type="text" required id="name" name="username" placeholder="Enter your name" maxlength="50">
+      </div>
+      <div>
+        <label id="email-label" for="email"><br>Email:</br></label>
+        <input type="text" required id="email" name="useremail" placeholder="Enter your email" maxlength="50">
+      </div>
+      <div>
+        <label id="number-label" for="number"><br>Phone:</br></label>
+        <input type="text" required id="number" name="number" placeholder="Enter your number" minlength="4" maxlength="30">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Symptoms</legend>
+      <p>What symptoms are you experiencing or experienced?</p>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Chest Pains
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Diarrhea
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Dry Cough
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Fatigue
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Fever
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Headache
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Low Appetite
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Muscle Pain
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Nasal Congestion
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Vomitting
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">Difficulty/Shortness of Breath
+        </label>
+      </div>
+      <div>
+        <label for="symptoms">
+          <input id="symptoms" type="checkbox" value="symptoms">other
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <p>Approximately, when was the first day when symptoms appeared?</p>
+      </div>
+      <label for="date">day/month/year</label>
+      <input type="date" name="date">
+    </fieldset>
+    <fieldset>
+      <p>Has a COVIT-19 test been done?</p>
+      <div>
+        <label for="test">
+          <input id="test" type="radio" name="test">Yes,waiting for results
+        </label>
+      </div>
+      <div>
+        <label for="test">
+          <input id="test" type="radio" name="test">Yes,negative
+        </label>
+      </div>
+      <div>
+        <label for="test">
+          <input id="test" type="radio" name="test">Yes,positive
+        </label>
+      </div>
+      <div>
+        <label for="test">
+          <input id="test" type="radio" name="test">No
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <p>What was the test taken?</p>
+      <label for="date">day/month/year</label>
+      <input type="date" name="date">
+    </fieldset>
+    <fieldset>
+      <p>What was the result of the test?</p>
+      <label for="result"></label>
+      <select name="result" id="dropdown">
+        <option>Positive</option>
+        <option>Negative</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label for="age">Age</label>
+        <input id="age" type="test" name="age">
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label for="gender">Gender</label>
+        <p>
+          <input type="radio" name="gender" value="male" checked>Male<br>
+          <input type="radio" name="gender" value="female">Female<br>
+          <input type="radio" name="gender" value="other">Prefer not Disclose<br>
+          <input type="radio" name="gender" value="other">Other<br>
+        </p>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label for="yes_no_radio">Do you have any pre-existing health condition?</label>
+        <p>
+          <input type="radio" name="yes_no" value="positive" checked>Yes
+          <input type="radio" name="yes_no" value="negative">No
+        </p>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Permission</legend>
+      <div>
+        <label for="permission">I consent to this information being shared within the practice</label>
+        <p>
+          <input id="permission" type="radio" name="permission">I Agree
+        </p>
+      </div>
+    </fieldset>
+    <fieldset>
+      <label for="textarea">Additional Comments</label>
+      <textarea id="textarea" name="textarea" rows="4" cols="50">
+      </textarea>
+      <div>
+        <input type="submit" value="submit">
+      </div>
+    </fieldset>
+  </form>
+</div>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
